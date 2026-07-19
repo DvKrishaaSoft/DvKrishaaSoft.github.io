@@ -80,27 +80,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const backToTop = document.getElementById("backToTop");
 
-    if (!backToTop) return;
+    if (backToTop) {
 
-    window.addEventListener("scroll", function () {
+        window.addEventListener("scroll", function () {
 
-        if (window.scrollY > 300) {
-            backToTop.style.display = "block";
-        } else {
-            backToTop.style.display = "none";
-        }
+            if (window.pageYOffset > 300) {
+                backToTop.style.display = "block";
+            } else {
+                backToTop.style.display = "none";
+            }
 
-    });
-
-    backToTop.addEventListener("click", function () {
-
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
         });
 
-    });
+        backToTop.onclick = function () {
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        };
+
+    }
 
 });
-
-
