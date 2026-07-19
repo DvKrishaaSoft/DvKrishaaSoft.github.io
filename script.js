@@ -75,23 +75,30 @@ behavior:'smooth'
 
 });
 
-const backToTop = document.getElementById("backToTop");
 
-window.addEventListener("scroll", () => {
+document.addEventListener("DOMContentLoaded", function () {
 
-    if(window.scrollY > 300){
-        backToTop.style.display = "block";
-    }else{
-        backToTop.style.display = "none";
-    }
+    const backToTop = document.getElementById("backToTop");
 
-});
+    if (!backToTop) return;
 
-backToTop.addEventListener("click", () => {
+    window.addEventListener("scroll", function () {
 
-    window.scrollTo({
-        top:0,
-        behavior:"smooth"
+        if (window.scrollY > 300) {
+            backToTop.style.display = "block";
+        } else {
+            backToTop.style.display = "none";
+        }
+
+    });
+
+    backToTop.addEventListener("click", function () {
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+
     });
 
 });
