@@ -255,3 +255,41 @@ background:#38bdf8;
     color:#cbd5e1;
     line-height:1.8;
 }
+
+.stats{
+    padding:100px 0;
+    background:#111827;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.stat-card{
+    background:#1e293b;
+    padding:40px;
+    text-align:center;
+    border-radius:15px;
+    transition:.4s;
+}
+
+.stat-card:hover{
+    transform:translateY(-10px);
+    background:#38bdf8;
+}
+
+.stat-card h2{
+    font-size:48px;
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.stat-card:hover h2{
+    color:#fff;
+}
+
+.stat-card p{
+    font-size:18px;
+}
