@@ -1,16 +1,59 @@
+const projects = [
 
-window.addEventListener("scroll", function(){
+{
+    category:"WooCommerce",
+    title:"La Reina",
+    image:"assets/images/project1.jpg",
+    description:"Premium WooCommerce Store",
+    url:"https://example.com"
+},
 
-    const header = document.querySelector(".header");
+{
+    category:"Healthcare",
+    title:"Mind Body FHC",
+    image:"assets/images/project2.jpg",
+    description:"Healthcare Website",
+    url:"https://example.com"
+},
 
-    if(window.scrollY > 100){
+{
+    category:"Corporate",
+    title:"Siminovitch Prize",
+    image:"assets/images/project3.jpg",
+    description:"Corporate Website",
+    url:"https://example.com"
+}
 
-        header.style.background = "#020617";
+];
 
-    }else{
+const portfolio=document.getElementById("portfolio-grid");
 
-        header.style.background = "#111827";
+projects.forEach(project=>{
 
-    }
+portfolio.innerHTML+=`
+
+<div class="portfolio-card">
+
+<img src="${project.image}" alt="${project.title}">
+
+<div class="portfolio-content">
+
+<span>${project.category}</span>
+
+<h3>${project.title}</h3>
+
+<p>${project.description}</p>
+
+<a href="${project.url}" target="_blank">
+
+Visit Website →
+
+</a>
+
+</div>
+
+</div>
+
+`;
 
 });
