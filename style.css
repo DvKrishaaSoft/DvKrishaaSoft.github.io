@@ -543,3 +543,42 @@ from{
     background:#0ea5e9;
 }
 
+.achievements{
+    padding:100px 0;
+    background:#0f172a;
+}
+
+.achievement-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.achievement-card{
+    background:#1e293b;
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    transition:.4s;
+}
+
+.achievement-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.4);
+}
+
+.achievement-card i{
+    font-size:50px;
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.achievement-card h3{
+    font-size:42px;
+    margin-bottom:10px;
+    color:#fff;
+}
+
+.achievement-card p{
+    color:#cbd5e1;
+}
