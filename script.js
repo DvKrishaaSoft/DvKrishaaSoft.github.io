@@ -3,7 +3,7 @@ const projects = [
 {
     category:"WooCommerce",
     title:"La Reina",
-    image:"assets/images/project1.jpg",
+    image:"assets/images/lareinalrn.com.png",
     description:"Premium WooCommerce Store",
     url:"https://lareinalrn.com/"
 },
@@ -11,7 +11,7 @@ const projects = [
 {
     category:"Healthcare",
     title:"Mind Body FHC",
-    image:"assets/images/project2.jpg",
+    image:"assets/images/mindbodyfhc.com.png",
     description:"Healthcare Website",
     url:"https://mindbodyfhc.com/"
 },
@@ -19,7 +19,7 @@ const projects = [
 {
     category:"Corporate",
     title:"Siminovitch Prize",
-    image:"assets/images/project3.jpg",
+    image:"assets/images/siminovitchprize.com.png",
     description:"Corporate Website",
     url:"https://siminovitchprize.com/"
 }
