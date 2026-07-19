@@ -305,6 +305,65 @@ background:#38bdf8;
     font-size:18px;
 }
 
+.technical-skills{
+    padding:100px 0;
+    background:#111827;
+}
+
+.skill{
+    margin-bottom:35px;
+}
+
+.skill-title{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:12px;
+    font-size:18px;
+}
+
+.progress{
+    width:100%;
+    height:12px;
+    background:#374151;
+    border-radius:30px;
+    overflow:hidden;
+}
+
+.progress-bar{
+    height:100%;
+    border-radius:30px;
+    animation:load 2s ease;
+}
+
+.wordpress{
+    width:95%;
+    background:#38bdf8;
+}
+
+.woocommerce{
+    width:92%;
+    background:#10b981;
+}
+
+.php{
+    width:90%;
+    background:#f59e0b;
+}
+
+.js{
+    width:85%;
+    background:#ef4444;
+}
+
+@keyframes load{
+
+from{
+    width:0;
+}
+
+}
+
+
 .contact{
     padding:100px 0;
 }
