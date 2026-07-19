@@ -5,7 +5,7 @@ const projects = [
     title:"La Reina",
     image:"assets/images/project1.jpg",
     description:"Premium WooCommerce Store",
-    url:"https://example.com"
+    url:"https://lareinalrn.com/"
 },
 
 {
@@ -13,7 +13,7 @@ const projects = [
     title:"Mind Body FHC",
     image:"assets/images/project2.jpg",
     description:"Healthcare Website",
-    url:"https://example.com"
+    url:"https://mindbodyfhc.com/"
 },
 
 {
@@ -21,7 +21,7 @@ const projects = [
     title:"Siminovitch Prize",
     image:"assets/images/project3.jpg",
     description:"Corporate Website",
-    url:"https://example.com"
+    url:"https://siminovitchprize.com/"
 }
 
 ];
