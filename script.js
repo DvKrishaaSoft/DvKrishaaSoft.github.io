@@ -22,7 +22,64 @@ const projects = [
     image:"assets/images/siminovitchprize.com.png",
     description:"Corporate Website",
     url:"https://siminovitchprize.com/"
+},
+
+{
+    category:"WooCommerce",
+    title:"Creator.co",
+    image:"assets/images/creator.jpg",
+    description:"WooCommerce Project",
+    url:"#"
+},
+
+{
+    category:"WooCommerce",
+    title:"Zwilling Canada",
+    image:"assets/images/zwilling.jpg",
+    description:"WooCommerce Website",
+    url:"#"
+},
+
+{
+    category:"WooCommerce",
+    title:"Dr. Freds Innovative",
+    image:"assets/images/drfred.jpg",
+    description:"WooCommerce Store",
+    url:"#"
+},
+
+{
+    category:"Healthcare",
+    title:"MTP Foundation",
+    image:"assets/images/mtp.jpg",
+    description:"Healthcare Website",
+    url:"#"
+},
+
+{
+    category:"Healthcare",
+    title:"Kimme Myles",
+    image:"assets/images/kimme.jpg",
+    description:"Healthcare Website",
+    url:"#"
+},
+
+{
+    category:"Healthcare",
+    title:"Rajeunir",
+    image:"assets/images/rajeunir.jpg",
+    description:"Healthcare Website",
+    url:"#"
+},
+
+{
+    category:"Healthcare",
+    title:"Intima HC",
+    image:"assets/images/intima.jpg",
+    description:"Healthcare Website",
+    url:"#"
 }
+    
 
 ];
 
