@@ -65,7 +65,7 @@ function displayProjects(projects) {
     projectsContainer.innerHTML = "";
 
     if (projects.length === 0) {
-        projectsContainer.innerHTML = "<h3>No Projects Found</h3>";
+        projectsContainer.innerHTML = '<h3 style="text-align: center;">No Projects Found</h3>';
         return;
     }
 
