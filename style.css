@@ -765,3 +765,82 @@ header h2{
     width:100%;
   }
 }
+
+/* ============== MOBILE TOGGLE MENU ============== */
+.menu-toggle{
+  display:none;
+  flex-direction:column;
+  justify-content:space-between;
+  width:30px;
+  height:22px;
+  cursor:pointer;
+  z-index:200;
+}
+
+.menu-toggle span{
+  display:block;
+  height:3px;
+  width:100%;
+  background:var(--gradient);
+  border-radius:3px;
+  transition:all .35s var(--ease);
+}
+
+/* Hamburger -> X animation when open */
+.menu-toggle.active span:nth-child(1){
+  transform:translateY(9.5px) rotate(45deg);
+}
+
+.menu-toggle.active span:nth-child(2){
+  opacity:0;
+}
+
+.menu-toggle.active span:nth-child(3){
+  transform:translateY(-9.5px) rotate(-45deg);
+}
+
+@media(max-width:768px){
+  .menu-toggle{
+    display:flex;
+  }
+
+  .nav-links{
+    position:fixed;
+    top:0;
+    right:-100%;
+    width:70%;
+    max-width:300px;
+    height:100vh;
+    background:var(--bg-alt);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:36px;
+    box-shadow:-10px 0 30px rgba(0,0,0,.4);
+    transition:right .4s var(--ease);
+    z-index:150;
+  }
+
+  .nav-links.active{
+    right:0;
+  }
+
+  .nav-links a{
+    font-size:18px;
+  }
+
+  /* dark overlay behind menu when open */
+  .menu-overlay{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.5);
+    z-index:120;
+  }
+
+  .menu-overlay.active{
+    display:block;
+  }
+}
