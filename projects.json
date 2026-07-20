@@ -1,21 +1,802 @@
-
 [
   {
-    "name": "Lareinalrn",
+    "id": 1,
+    "name": "La Reina LRN",
     "category": "WooCommerce",
     "technology": "WordPress, WooCommerce",
-    "url": "https://lareinalrn.com"
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://lareinalrn.com",
+    "featured": true
   },
   {
-    "name": "Zwilling",
+    "id": 2,
+    "name": "Zwilling Canada",
     "category": "WooCommerce",
     "technology": "WordPress, WooCommerce",
-    "url": "https://zwilling.ca"
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://zwilling.ca",
+    "featured": true
   },
   {
-    "name": "Creator",
+    "id": 3,
+    "name": "Creator.co",
     "category": "WooCommerce",
     "technology": "WordPress, WooCommerce",
-    "url": "https://creator.co"
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://creator.co",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Mind Body FHC",
+    "category": "Healthcare",
+    "technology": "WordPress, Divi",
+    "description": "Healthcare Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://mindbodyfhc.com",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "name": "Siminovitch Prize",
+    "category": "Elementor",
+    "technology": "WordPress, Elementor",
+    "description": "Elementor Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://siminovitchprize.com",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "name": "Kolleno",
+    "category": "Custom",
+    "technology": "Custom SCSS, ACF",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.kolleno.com",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "name": "JSleeve",
+    "category": "Shopify",
+    "technology": "Shopify",
+    "description": "Shopify Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.jsleeve.com",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Toronto Downtown Condos",
+    "category": "Real Estate",
+    "technology": "WordPress",
+    "description": "Real Estate Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://torontodowntowncondos.com",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "National Post",
+    "category": "Brand",
+    "technology": "Enterprise CMS",
+    "description": "Brand Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://nationalpost.com",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "Grey Eagle Resort & Casino",
+    "category": "Custom",
+    "technology": "Custom Build",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.greyeagleresortandcasino.ca",
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "La Reina LRN 11",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://lareinalrn.com",
+    "featured": false
+  },
+  {
+    "id": 12,
+    "name": "Zwilling Canada 12",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://zwilling.ca",
+    "featured": false
+  },
+  {
+    "id": 13,
+    "name": "Creator.co 13",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://creator.co",
+    "featured": false
+  },
+  {
+    "id": 14,
+    "name": "Mind Body FHC 14",
+    "category": "Healthcare",
+    "technology": "WordPress, Divi",
+    "description": "Healthcare Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://mindbodyfhc.com",
+    "featured": false
+  },
+  {
+    "id": 15,
+    "name": "Siminovitch Prize 15",
+    "category": "Elementor",
+    "technology": "WordPress, Elementor",
+    "description": "Elementor Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://siminovitchprize.com",
+    "featured": false
+  },
+  {
+    "id": 16,
+    "name": "Kolleno 16",
+    "category": "Custom",
+    "technology": "Custom SCSS, ACF",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.kolleno.com",
+    "featured": false
+  },
+  {
+    "id": 17,
+    "name": "JSleeve 17",
+    "category": "Shopify",
+    "technology": "Shopify",
+    "description": "Shopify Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.jsleeve.com",
+    "featured": false
+  },
+  {
+    "id": 18,
+    "name": "Toronto Downtown Condos 18",
+    "category": "Real Estate",
+    "technology": "WordPress",
+    "description": "Real Estate Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://torontodowntowncondos.com",
+    "featured": false
+  },
+  {
+    "id": 19,
+    "name": "National Post 19",
+    "category": "Brand",
+    "technology": "Enterprise CMS",
+    "description": "Brand Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://nationalpost.com",
+    "featured": false
+  },
+  {
+    "id": 20,
+    "name": "Grey Eagle Resort & Casino 20",
+    "category": "Custom",
+    "technology": "Custom Build",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.greyeagleresortandcasino.ca",
+    "featured": false
+  },
+  {
+    "id": 21,
+    "name": "La Reina LRN 21",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://lareinalrn.com",
+    "featured": false
+  },
+  {
+    "id": 22,
+    "name": "Zwilling Canada 22",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://zwilling.ca",
+    "featured": false
+  },
+  {
+    "id": 23,
+    "name": "Creator.co 23",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://creator.co",
+    "featured": false
+  },
+  {
+    "id": 24,
+    "name": "Mind Body FHC 24",
+    "category": "Healthcare",
+    "technology": "WordPress, Divi",
+    "description": "Healthcare Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://mindbodyfhc.com",
+    "featured": false
+  },
+  {
+    "id": 25,
+    "name": "Siminovitch Prize 25",
+    "category": "Elementor",
+    "technology": "WordPress, Elementor",
+    "description": "Elementor Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://siminovitchprize.com",
+    "featured": false
+  },
+  {
+    "id": 26,
+    "name": "Kolleno 26",
+    "category": "Custom",
+    "technology": "Custom SCSS, ACF",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.kolleno.com",
+    "featured": false
+  },
+  {
+    "id": 27,
+    "name": "JSleeve 27",
+    "category": "Shopify",
+    "technology": "Shopify",
+    "description": "Shopify Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.jsleeve.com",
+    "featured": false
+  },
+  {
+    "id": 28,
+    "name": "Toronto Downtown Condos 28",
+    "category": "Real Estate",
+    "technology": "WordPress",
+    "description": "Real Estate Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://torontodowntowncondos.com",
+    "featured": false
+  },
+  {
+    "id": 29,
+    "name": "National Post 29",
+    "category": "Brand",
+    "technology": "Enterprise CMS",
+    "description": "Brand Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://nationalpost.com",
+    "featured": false
+  },
+  {
+    "id": 30,
+    "name": "Grey Eagle Resort & Casino 30",
+    "category": "Custom",
+    "technology": "Custom Build",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.greyeagleresortandcasino.ca",
+    "featured": false
+  },
+  {
+    "id": 31,
+    "name": "La Reina LRN 31",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://lareinalrn.com",
+    "featured": false
+  },
+  {
+    "id": 32,
+    "name": "Zwilling Canada 32",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://zwilling.ca",
+    "featured": false
+  },
+  {
+    "id": 33,
+    "name": "Creator.co 33",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://creator.co",
+    "featured": false
+  },
+  {
+    "id": 34,
+    "name": "Mind Body FHC 34",
+    "category": "Healthcare",
+    "technology": "WordPress, Divi",
+    "description": "Healthcare Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://mindbodyfhc.com",
+    "featured": false
+  },
+  {
+    "id": 35,
+    "name": "Siminovitch Prize 35",
+    "category": "Elementor",
+    "technology": "WordPress, Elementor",
+    "description": "Elementor Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://siminovitchprize.com",
+    "featured": false
+  },
+  {
+    "id": 36,
+    "name": "Kolleno 36",
+    "category": "Custom",
+    "technology": "Custom SCSS, ACF",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.kolleno.com",
+    "featured": false
+  },
+  {
+    "id": 37,
+    "name": "JSleeve 37",
+    "category": "Shopify",
+    "technology": "Shopify",
+    "description": "Shopify Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.jsleeve.com",
+    "featured": false
+  },
+  {
+    "id": 38,
+    "name": "Toronto Downtown Condos 38",
+    "category": "Real Estate",
+    "technology": "WordPress",
+    "description": "Real Estate Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://torontodowntowncondos.com",
+    "featured": false
+  },
+  {
+    "id": 39,
+    "name": "National Post 39",
+    "category": "Brand",
+    "technology": "Enterprise CMS",
+    "description": "Brand Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://nationalpost.com",
+    "featured": false
+  },
+  {
+    "id": 40,
+    "name": "Grey Eagle Resort & Casino 40",
+    "category": "Custom",
+    "technology": "Custom Build",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.greyeagleresortandcasino.ca",
+    "featured": false
+  },
+  {
+    "id": 41,
+    "name": "La Reina LRN 41",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://lareinalrn.com",
+    "featured": false
+  },
+  {
+    "id": 42,
+    "name": "Zwilling Canada 42",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://zwilling.ca",
+    "featured": false
+  },
+  {
+    "id": 43,
+    "name": "Creator.co 43",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://creator.co",
+    "featured": false
+  },
+  {
+    "id": 44,
+    "name": "Mind Body FHC 44",
+    "category": "Healthcare",
+    "technology": "WordPress, Divi",
+    "description": "Healthcare Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://mindbodyfhc.com",
+    "featured": false
+  },
+  {
+    "id": 45,
+    "name": "Siminovitch Prize 45",
+    "category": "Elementor",
+    "technology": "WordPress, Elementor",
+    "description": "Elementor Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://siminovitchprize.com",
+    "featured": false
+  },
+  {
+    "id": 46,
+    "name": "Kolleno 46",
+    "category": "Custom",
+    "technology": "Custom SCSS, ACF",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.kolleno.com",
+    "featured": false
+  },
+  {
+    "id": 47,
+    "name": "JSleeve 47",
+    "category": "Shopify",
+    "technology": "Shopify",
+    "description": "Shopify Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.jsleeve.com",
+    "featured": false
+  },
+  {
+    "id": 48,
+    "name": "Toronto Downtown Condos 48",
+    "category": "Real Estate",
+    "technology": "WordPress",
+    "description": "Real Estate Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://torontodowntowncondos.com",
+    "featured": false
+  },
+  {
+    "id": 49,
+    "name": "National Post 49",
+    "category": "Brand",
+    "technology": "Enterprise CMS",
+    "description": "Brand Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://nationalpost.com",
+    "featured": false
+  },
+  {
+    "id": 50,
+    "name": "Grey Eagle Resort & Casino 50",
+    "category": "Custom",
+    "technology": "Custom Build",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.greyeagleresortandcasino.ca",
+    "featured": false
+  },
+  {
+    "id": 51,
+    "name": "La Reina LRN 51",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://lareinalrn.com",
+    "featured": false
+  },
+  {
+    "id": 52,
+    "name": "Zwilling Canada 52",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://zwilling.ca",
+    "featured": false
+  },
+  {
+    "id": 53,
+    "name": "Creator.co 53",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://creator.co",
+    "featured": false
+  },
+  {
+    "id": 54,
+    "name": "Mind Body FHC 54",
+    "category": "Healthcare",
+    "technology": "WordPress, Divi",
+    "description": "Healthcare Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://mindbodyfhc.com",
+    "featured": false
+  },
+  {
+    "id": 55,
+    "name": "Siminovitch Prize 55",
+    "category": "Elementor",
+    "technology": "WordPress, Elementor",
+    "description": "Elementor Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://siminovitchprize.com",
+    "featured": false
+  },
+  {
+    "id": 56,
+    "name": "Kolleno 56",
+    "category": "Custom",
+    "technology": "Custom SCSS, ACF",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.kolleno.com",
+    "featured": false
+  },
+  {
+    "id": 57,
+    "name": "JSleeve 57",
+    "category": "Shopify",
+    "technology": "Shopify",
+    "description": "Shopify Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.jsleeve.com",
+    "featured": false
+  },
+  {
+    "id": 58,
+    "name": "Toronto Downtown Condos 58",
+    "category": "Real Estate",
+    "technology": "WordPress",
+    "description": "Real Estate Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://torontodowntowncondos.com",
+    "featured": false
+  },
+  {
+    "id": 59,
+    "name": "National Post 59",
+    "category": "Brand",
+    "technology": "Enterprise CMS",
+    "description": "Brand Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://nationalpost.com",
+    "featured": false
+  },
+  {
+    "id": 60,
+    "name": "Grey Eagle Resort & Casino 60",
+    "category": "Custom",
+    "technology": "Custom Build",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.greyeagleresortandcasino.ca",
+    "featured": false
+  },
+  {
+    "id": 61,
+    "name": "La Reina LRN 61",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://lareinalrn.com",
+    "featured": false
+  },
+  {
+    "id": 62,
+    "name": "Zwilling Canada 62",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://zwilling.ca",
+    "featured": false
+  },
+  {
+    "id": 63,
+    "name": "Creator.co 63",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://creator.co",
+    "featured": false
+  },
+  {
+    "id": 64,
+    "name": "Mind Body FHC 64",
+    "category": "Healthcare",
+    "technology": "WordPress, Divi",
+    "description": "Healthcare Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://mindbodyfhc.com",
+    "featured": false
+  },
+  {
+    "id": 65,
+    "name": "Siminovitch Prize 65",
+    "category": "Elementor",
+    "technology": "WordPress, Elementor",
+    "description": "Elementor Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://siminovitchprize.com",
+    "featured": false
+  },
+  {
+    "id": 66,
+    "name": "Kolleno 66",
+    "category": "Custom",
+    "technology": "Custom SCSS, ACF",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.kolleno.com",
+    "featured": false
+  },
+  {
+    "id": 67,
+    "name": "JSleeve 67",
+    "category": "Shopify",
+    "technology": "Shopify",
+    "description": "Shopify Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.jsleeve.com",
+    "featured": false
+  },
+  {
+    "id": 68,
+    "name": "Toronto Downtown Condos 68",
+    "category": "Real Estate",
+    "technology": "WordPress",
+    "description": "Real Estate Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://torontodowntowncondos.com",
+    "featured": false
+  },
+  {
+    "id": 69,
+    "name": "National Post 69",
+    "category": "Brand",
+    "technology": "Enterprise CMS",
+    "description": "Brand Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://nationalpost.com",
+    "featured": false
+  },
+  {
+    "id": 70,
+    "name": "Grey Eagle Resort & Casino 70",
+    "category": "Custom",
+    "technology": "Custom Build",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.greyeagleresortandcasino.ca",
+    "featured": false
+  },
+  {
+    "id": 71,
+    "name": "La Reina LRN 71",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://lareinalrn.com",
+    "featured": false
+  },
+  {
+    "id": 72,
+    "name": "Zwilling Canada 72",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://zwilling.ca",
+    "featured": false
+  },
+  {
+    "id": 73,
+    "name": "Creator.co 73",
+    "category": "WooCommerce",
+    "technology": "WordPress, WooCommerce",
+    "description": "WooCommerce Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://creator.co",
+    "featured": false
+  },
+  {
+    "id": 74,
+    "name": "Mind Body FHC 74",
+    "category": "Healthcare",
+    "technology": "WordPress, Divi",
+    "description": "Healthcare Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://mindbodyfhc.com",
+    "featured": false
+  },
+  {
+    "id": 75,
+    "name": "Siminovitch Prize 75",
+    "category": "Elementor",
+    "technology": "WordPress, Elementor",
+    "description": "Elementor Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://siminovitchprize.com",
+    "featured": false
+  },
+  {
+    "id": 76,
+    "name": "Kolleno 76",
+    "category": "Custom",
+    "technology": "Custom SCSS, ACF",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.kolleno.com",
+    "featured": false
+  },
+  {
+    "id": 77,
+    "name": "JSleeve 77",
+    "category": "Shopify",
+    "technology": "Shopify",
+    "description": "Shopify Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.jsleeve.com",
+    "featured": false
+  },
+  {
+    "id": 78,
+    "name": "Toronto Downtown Condos 78",
+    "category": "Real Estate",
+    "technology": "WordPress",
+    "description": "Real Estate Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://torontodowntowncondos.com",
+    "featured": false
+  },
+  {
+    "id": 79,
+    "name": "National Post 79",
+    "category": "Brand",
+    "technology": "Enterprise CMS",
+    "description": "Brand Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://nationalpost.com",
+    "featured": false
+  },
+  {
+    "id": 80,
+    "name": "Grey Eagle Resort & Casino 80",
+    "category": "Custom",
+    "technology": "Custom Build",
+    "description": "Custom Website",
+    "image": "assets/images/no-image.jpg",
+    "url": "https://www.greyeagleresortandcasino.ca",
+    "featured": false
   }
 ]
