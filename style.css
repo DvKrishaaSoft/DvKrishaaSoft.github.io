@@ -842,4 +842,9 @@ header h2{
   .menu-overlay.active{
     display:block;
   }
+
+ .hero-image img{
+  width: 200px;
+  }
+  
 }
