@@ -123,3 +123,23 @@ categorySelect.addEventListener("change", filterProjects);
 loadProjects();
 
 
+
+<script>
+  const menuToggle = document.getElementById('menuToggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    navLinks.classList.toggle('active');
+  });
+
+  // link पर क्लिक करने से menu अपने आप बंद हो जाए
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      menuToggle.classList.remove('active');
+      navLinks.classList.remove('active');
+    });
+  });
+</script>
+
+
