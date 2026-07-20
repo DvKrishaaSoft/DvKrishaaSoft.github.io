@@ -59,9 +59,7 @@ h1,h2,h3,h4,
 /* ============== HEADER / NAV ============== */
 .header{
   padding:20px 0;
-  background:rgba(9,11,22,.75);
-  backdrop-filter:blur(14px);
-  -webkit-backdrop-filter:blur(14px);
+  background:rgba(9,11,22,.96);
   border-bottom:1px solid var(--border-subtle);
   position:sticky;
   top:0;
