@@ -249,7 +249,7 @@ nav, .navbar{
 .skill-card{
   background:var(--card-bg);
   border:1px solid var(--border-subtle);
-  padding:28px;
+  padding:18px;
   border-radius:var(--radius);
   text-align:center;
   font-size:18px;
