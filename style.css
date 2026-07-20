@@ -1,3 +1,169 @@
+/* ============================================
+   MODERN COLOR THEME — Violet / Pink Aurora
+   Add this file AFTER your existing style.css
+   (it only overrides colors, not layout/spacing)
+   ============================================ */
+
+:root{
+  --bg:#0b1020;
+  --bg-alt:#141a2e;
+  --bg-darkest:#05060f;
+  --card-bg:#1a2140;
+  --accent:#8b5cf6;      /* violet */
+  --accent-2:#ec4899;    /* pink */
+  --accent-3:#22d3ee;    /* cyan (used sparingly for skill bar) */
+  --text:#f5f5f7;
+  --text-muted:#a5b4cf;
+  --border-subtle:#2f3960;
+  --gradient: linear-gradient(135deg,var(--accent),var(--accent-2));
+}
+
+/* Backgrounds */
+body,
+.services,
+.achievements{
+  background:var(--bg);
+  color:var(--text);
+}
+
+.header,
+.about,
+.stats,
+.technical-skills,
+.secondary{
+  background:var(--bg-alt);
+}
+
+.footer{
+  background:var(--bg-darkest);
+}
+
+/* Cards */
+.skill-card,
+.portfolio-card,
+.timeline-item,
+.service-card,
+.stat-card,
+.achievement-card,
+.contact-box,
+.social-links a,
+.card{
+  background:var(--card-bg);
+}
+
+.service-card{
+  border:1px solid var(--border-subtle);
+}
+
+.service-card:hover{
+  border-color:var(--accent);
+  box-shadow:0 15px 30px rgba(139,92,246,.25);
+}
+
+/* Accent text / icons */
+.logo,
+.hero-text h2,
+.section-title,
+.portfolio-content span,
+.portfolio-content a,
+.timeline-item h3,
+.service-card h3,
+.stat-card h2,
+.footer h2,
+.achievement-card i,
+.card h3,
+.card a{
+  color:var(--accent-2);
+}
+
+.nav-links a:hover{
+  color:var(--accent-2);
+}
+
+/* Borders / accents */
+.hero-image img,
+.btn-outline{
+  border-color:var(--accent);
+}
+
+.timeline-item{
+  border-left:5px solid var(--accent);
+}
+
+/* Buttons */
+.btn{
+  background:var(--gradient);
+  color:#fff;
+}
+
+.cta .btn{
+  background:#fff;
+  color:var(--accent);
+}
+
+.cta .btn:hover{
+  background:#f3f4f6;
+}
+
+/* Hover fills */
+.skill-card:hover,
+.stat-card:hover,
+.social-links a:hover{
+  background:var(--gradient);
+}
+
+.stat-card:hover h2{
+  color:#fff;
+}
+
+/* Gradient sections */
+.cta,
+header{
+  background:var(--gradient);
+}
+
+/* Skill progress bars */
+.progress{
+  background:#22273f;
+}
+
+.wordpress{
+  background:var(--accent);
+}
+
+.woocommerce{
+  background:#10b981; /* keep green — reads clearly as WooCommerce */
+}
+
+.php{
+  background:#f59e0b; /* keep amber — reads clearly as PHP */
+}
+
+.js{
+  background:var(--accent-3);
+}
+
+/* Back-to-top button */
+#backToTop{
+  background:var(--accent);
+  color:#fff;
+}
+
+#backToTop:hover{
+  background:var(--accent-2);
+}
+
+/* Muted text */
+.timeline-item span,
+.copyright,
+.service-card p,
+.footer p,
+.achievement-card p{
+  color:var(--text-muted);
+}
+
+
+
 *{
     margin:0;
     padding:0;
