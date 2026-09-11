@@ -10,36 +10,6 @@
     "featured": false
   },
   {
-    "id": 2,
-    "name": "Zwilling",
-    "category": "WooCommerce",
-    "technology": "WordPress, WooCommerce",
-    "description": "Zwilling is a WooCommerce project built with WordPress, WooCommerce.",
-    "image": "assets/images/no-image.jpg",
-    "url": "https://zwilling.ca",
-    "featured": false
-  },
-  {
-    "id": 3,
-    "name": "Creator",
-    "category": "WooCommerce",
-    "technology": "WordPress, WooCommerce",
-    "description": "Creator is a WooCommerce project built with WordPress, WooCommerce.",
-    "image": "assets/images/no-image.jpg",
-    "url": "https://creator.co",
-    "featured": false
-  },
-  {
-    "id": 4,
-    "name": "Socialcoffee",
-    "category": "WooCommerce",
-    "technology": "WordPress, WooCommerce",
-    "description": "Socialcoffee is a WooCommerce project built with WordPress, WooCommerce.",
-    "image": "assets/images/no-image.jpg",
-    "url": "https://socialcoffee.com",
-    "featured": false
-  },
-  {
     "id": 5,
     "name": "Elioclothing",
     "category": "WooCommerce",
