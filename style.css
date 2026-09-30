@@ -1048,7 +1048,7 @@ header h2{
     -webkit-text-fill-color: transparent;
   
 }
-.hero-text h4:before {
+.hero-text h4::before {
   content: "";
   display: inline-block;
   width: 30px;  /* Length of the line */
