@@ -82,6 +82,13 @@ nav, .navbar{
   -webkit-text-fill-color:transparent;
 }
 
+.logo{
+  border: 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
 .nav-links, nav ul{
   display:flex;
   gap:32px;
