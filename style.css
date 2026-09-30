@@ -73,7 +73,7 @@ nav, .navbar{
 }
 
 .logo{
-  font-size:28px;
+  font-size:25px;
   font-weight:800;
   letter-spacing:.5px;
   background:var(--gradient);
