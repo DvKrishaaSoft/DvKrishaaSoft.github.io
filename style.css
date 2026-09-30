@@ -1035,6 +1035,19 @@ header h2{
   transform: translateY(-2px);
 }
 
+.hero-text h4 {
+    display: inline-flex;
+    align-items: center;
+    font-family: monospace, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media (max-width: 600px) {
   .ai-skills-list {
     gap: 10px;
