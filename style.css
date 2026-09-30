@@ -1046,6 +1046,15 @@ header h2{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+  
+}
+.hero-text h4:before {
+  content: "";
+  display: inline-block;
+  width: 30px;  /* Length of the line */
+  height: 2px;  /* Thickness of the line */
+  background-color: rgb(236, 72, 153); /* Line color */
+  margin-right: 15px; /* Spacing between the line and text */
 }
 
 @media (max-width: 600px) {
