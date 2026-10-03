@@ -256,10 +256,10 @@ nav, .navbar{
 .skill-card{
   background:var(--card-bg);
   border:1px solid var(--border-subtle);
-  padding:15px;
+  padding:14px;
   border-radius:var(--radius);
   text-align:center;
-  font-size:15px;
+  font-size:14px;
   font-weight:500;
   transition:all .35s var(--ease);
 }
