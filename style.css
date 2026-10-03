@@ -249,8 +249,8 @@ nav, .navbar{
 
 .skills-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:22px;
+  grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+  gap:18px;
 }
 
 .skill-card{
